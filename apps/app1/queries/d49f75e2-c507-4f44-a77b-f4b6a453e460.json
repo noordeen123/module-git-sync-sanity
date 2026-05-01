@@ -1,0 +1,26 @@
+{
+  "id": "d49f75e2-c507-4f44-a77b-f4b6a453e460",
+  "name": "restapi1",
+  "options": {
+    "method": "get",
+    "url": "/",
+    "url_params": [],
+    "headers": [],
+    "cookies": [],
+    "body": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": true,
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "transformations": {
+      "javascript": "return Array.isArray(data)\n  ? data\n  : Object.values(data || {}).find(Array.isArray) || [];",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    },
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "ee3dd619-9a6b-416c-be7c-b0030e65baf8",
+  "appVersionId": "4f7edfca-959d-4b1a-844b-429f2511900b",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}

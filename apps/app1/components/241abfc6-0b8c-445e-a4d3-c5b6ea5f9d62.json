@@ -1,0 +1,144 @@
+{
+  "id": "241abfc6-0b8c-445e-a4d3-c5b6ea5f9d62",
+  "name": "dob",
+  "type": "DatePickerV2",
+  "pageId": "1d722362-dba7-474b-9ef6-0398c16eeb7f",
+  "parent": "a028477d-facf-488f-af0c-02770fab9fb3",
+  "properties": {
+    "label": {
+      "value": "Dob"
+    },
+    "defaultValue": {
+      "value": "01-01-1990"
+    },
+    "placeholder": {
+      "value": "Select date"
+    },
+    "dateFormat": {
+      "value": "DD/MM/YYYY"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "showClearBtn": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "labelColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "alignment": {
+      "value": "top"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "labelWidth": {
+      "value": "20"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "fieldBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "fieldBorderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "selectedTextColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "errTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "icon": {
+      "value": "IconCalendarEvent"
+    },
+    "iconVisibility": {
+      "value": true
+    },
+    "iconDirection": {
+      "value": "left"
+    },
+    "fieldBorderRadius": {
+      "value": "{{6}}"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "widthType": {
+      "value": "ofComponent"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "minDate": {
+      "value": ""
+    },
+    "maxDate": {
+      "value": ""
+    },
+    "disabledDates": {
+      "value": "{{[]}}"
+    },
+    "customRule": {
+      "value": ""
+    },
+    "mandatory": {
+      "value": false
+    }
+  },
+  "layouts": [
+    {
+      "id": "99abf1b7-64f0-47ce-8790-81603d5216f9",
+      "type": "desktop",
+      "top": 240,
+      "left": 3,
+      "width": 37,
+      "height": 40,
+      "componentId": "241abfc6-0b8c-445e-a4d3-c5b6ea5f9d62",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c66aaa56-f42b-43b9-bca9-614b3530d82e",
+      "type": "mobile",
+      "top": 240,
+      "left": 3,
+      "width": 37,
+      "height": 40,
+      "componentId": "241abfc6-0b8c-445e-a4d3-c5b6ea5f9d62",
+      "dimensionUnit": "count"
+    }
+  ]
+}
