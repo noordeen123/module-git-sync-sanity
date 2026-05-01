@@ -1,0 +1,15 @@
+{
+  "1ba91d0c-0d00-4c0f-8da1-ac70ea6f0150": {
+    "name": "restapi",
+    "kind": "restapi",
+    "updatedAt": "2026-05-01T10:13:55.750Z",
+    "contentHash": "d8e0d889460c89710b0ef92de80a22882ac4d9ed93e3f6b30074a532951a1c33"
+  },
+  "ee3dd619-9a6b-416c-be7c-b0030e65baf8": {
+    "name": "restapi_2",
+    "kind": "restapi",
+    "updatedAt": "2026-05-01T10:13:55.751Z",
+    "contentHash": "51622c761a0ce134422c65622eaef4a945f8c42151aefdc930b32847a56afe4c"
+  },
+  "lastUpdatedAt": "2026-05-01T10:13:55.751Z"
+}
