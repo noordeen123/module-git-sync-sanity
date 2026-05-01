@@ -1,0 +1,15 @@
+{
+  "id": "50e626c3-cb3a-441a-b285-04d31451c9bf",
+  "name": "table1 Row hovered",
+  "index": 0,
+  "event": {
+    "eventId": "onRowClicked",
+    "message": "{{components.e2acc193-7644-4f40-b331-ab6407c23c85.selectedRow.id}}",
+    "actionId": "show-alert",
+    "alertType": "info",
+    "component": "table1"
+  },
+  "sourceId": "e2acc193-7644-4f40-b331-ab6407c23c85",
+  "target": "component",
+  "appVersionId": "2aa916f8-7f7b-4653-8c2c-62020b6757ad"
+}
