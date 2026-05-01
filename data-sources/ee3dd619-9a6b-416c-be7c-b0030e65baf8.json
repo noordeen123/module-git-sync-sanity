@@ -1,0 +1,131 @@
+{
+  "id": "ee3dd619-9a6b-416c-be7c-b0030e65baf8",
+  "name": "restapi_2",
+  "kind": "restapi",
+  "type": "default",
+  "options": {
+    "development": {
+      "url": "https://dummyjson.com/products",
+      "scopes": "read, write",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "audience": "",
+      "auth_url": "",
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "body",
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "retry_network_errors": true,
+      "multiple_auth_enabled": false,
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "production": {
+      "url": "https://dummyjson.com/posts",
+      "scopes": "read, write",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "audience": "",
+      "auth_url": "",
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "body",
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "retry_network_errors": true,
+      "multiple_auth_enabled": false,
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "staging": {
+      "url": "https://dummyjson.com/users",
+      "scopes": "read, write",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "audience": "",
+      "auth_url": "",
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "body",
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "retry_network_errors": true,
+      "multiple_auth_enabled": false,
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  }
+}
