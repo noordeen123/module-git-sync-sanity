@@ -1,0 +1,26 @@
+{
+  "id": "2aa916f8-7f7b-4653-8c2c-62020b6757ad",
+  "definition": {},
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {},
+  "showViewerNavigation": false,
+  "homePageId": "6ce3cfa3-2fac-4287-bad5-b995f13ef1bf",
+  "versionType": "branch",
+  "appId": "84617c9c-35c7-4395-b6d0-e131cb4cfd42",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "moduleReferenceId": "4b1a6295-4f45-44cc-92d9-cfdac88f86ab",
+  "sourceTag": null
+}

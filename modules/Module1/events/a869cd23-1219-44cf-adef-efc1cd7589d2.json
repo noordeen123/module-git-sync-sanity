@@ -1,0 +1,17 @@
+{
+  "id": "a869cd23-1219-44cf-adef-efc1cd7589d2",
+  "name": "table2 Row hovered",
+  "index": 0,
+  "event": {
+    "key": "value",
+    "value": "{{components.3d5dcfb4-2c5c-4f13-b635-5cff52a04838.selectedRow.id}}",
+    "eventId": "onRowClicked",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "table2"
+  },
+  "sourceId": "3d5dcfb4-2c5c-4f13-b635-5cff52a04838",
+  "target": "component",
+  "appVersionId": "2aa916f8-7f7b-4653-8c2c-62020b6757ad"
+}

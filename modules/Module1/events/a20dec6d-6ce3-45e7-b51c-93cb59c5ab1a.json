@@ -1,0 +1,15 @@
+{
+  "id": "a20dec6d-6ce3-45e7-b51c-93cb59c5ab1a",
+  "name": "button1 On click",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "{{components.5c7a9929-ad00-48ac-a766-2e4ef55aa7da.buttonText}}",
+    "actionId": "show-alert",
+    "alertType": "info",
+    "component": "button1"
+  },
+  "sourceId": "5c7a9929-ad00-48ac-a766-2e4ef55aa7da",
+  "target": "component",
+  "appVersionId": "2aa916f8-7f7b-4653-8c2c-62020b6757ad"
+}
