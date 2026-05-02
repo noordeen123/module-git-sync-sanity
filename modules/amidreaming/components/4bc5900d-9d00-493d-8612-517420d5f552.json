@@ -123,9 +123,6 @@
     "selectedText": {
       "value": "var(--cc-primary-text)"
     },
-    "highlightColor": {
-      "value": "var(--cc-primary-brand)"
-    },
     "hoverBackground": {
       "value": "#1B1F24"
     },
