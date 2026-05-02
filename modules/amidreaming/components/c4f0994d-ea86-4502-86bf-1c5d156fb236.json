@@ -1,6 +1,6 @@
 {
-  "id": "25443864-2fe6-401c-aed8-8ec56f97b7cd",
-  "name": "text1",
+  "id": "c4f0994d-ea86-4502-86bf-1c5d156fb236",
+  "name": "text4",
   "type": "Text",
   "pageId": "52eda2f1-f34c-4702-a351-6c4661c07cef",
   "parent": "0ce9c88e-5ca7-4f3e-851a-59ba9b232e76",
@@ -99,23 +99,23 @@
   "validation": {},
   "layouts": [
     {
-      "id": "92d2bb97-c2b8-435c-bcb5-41660d8bdbb9",
+      "id": "d1233ed6-c135-4e2d-913b-e7e17a1e693e",
       "type": "desktop",
-      "top": 10,
+      "top": 130,
       "left": 13,
       "width": 7,
       "height": 40,
-      "componentId": "25443864-2fe6-401c-aed8-8ec56f97b7cd",
+      "componentId": "c4f0994d-ea86-4502-86bf-1c5d156fb236",
       "dimensionUnit": "count"
     },
     {
-      "id": "17efbb7d-9326-4320-8847-695a5389c17f",
+      "id": "cb054e54-b946-4189-a16e-fde6e170409c",
       "type": "mobile",
       "top": 80,
       "left": 31,
       "width": 7,
       "height": 40,
-      "componentId": "25443864-2fe6-401c-aed8-8ec56f97b7cd",
+      "componentId": "c4f0994d-ea86-4502-86bf-1c5d156fb236",
       "dimensionUnit": "count"
     }
   ]

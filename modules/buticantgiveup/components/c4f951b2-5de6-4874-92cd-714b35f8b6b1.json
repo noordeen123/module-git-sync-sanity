@@ -1,9 +1,9 @@
 {
-  "id": "25443864-2fe6-401c-aed8-8ec56f97b7cd",
-  "name": "text1",
+  "id": "c4f951b2-5de6-4874-92cd-714b35f8b6b1",
+  "name": "text3",
   "type": "Text",
-  "pageId": "52eda2f1-f34c-4702-a351-6c4661c07cef",
-  "parent": "0ce9c88e-5ca7-4f3e-851a-59ba9b232e76",
+  "pageId": "6ce3cfa3-2fac-4287-bad5-b995f13ef1bf",
+  "parent": "216f248f-41a9-4d55-bac2-b39c4119a18f",
   "properties": {
     "textFormat": {
       "value": "html"
@@ -99,23 +99,23 @@
   "validation": {},
   "layouts": [
     {
-      "id": "92d2bb97-c2b8-435c-bcb5-41660d8bdbb9",
+      "id": "50bc9469-d9f3-4c39-aae4-2af5ad63d3e2",
       "type": "desktop",
-      "top": 10,
-      "left": 13,
-      "width": 7,
-      "height": 40,
-      "componentId": "25443864-2fe6-401c-aed8-8ec56f97b7cd",
-      "dimensionUnit": "count"
-    },
-    {
-      "id": "17efbb7d-9326-4320-8847-695a5389c17f",
-      "type": "mobile",
-      "top": 80,
+      "top": 30,
       "left": 31,
       "width": 7,
       "height": 40,
-      "componentId": "25443864-2fe6-401c-aed8-8ec56f97b7cd",
+      "componentId": "c4f951b2-5de6-4874-92cd-714b35f8b6b1",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b7f4f87c-9fd9-4bf1-8d22-c5a265dca076",
+      "type": "mobile",
+      "top": 30,
+      "left": 31,
+      "width": 7,
+      "height": 40,
+      "componentId": "c4f951b2-5de6-4874-92cd-714b35f8b6b1",
       "dimensionUnit": "count"
     }
   ]

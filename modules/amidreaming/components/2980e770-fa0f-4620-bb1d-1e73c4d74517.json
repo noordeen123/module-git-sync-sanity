@@ -1,9 +1,9 @@
 {
-  "id": "25443864-2fe6-401c-aed8-8ec56f97b7cd",
-  "name": "text1",
+  "id": "2980e770-fa0f-4620-bb1d-1e73c4d74517",
+  "name": "text5",
   "type": "Text",
   "pageId": "52eda2f1-f34c-4702-a351-6c4661c07cef",
-  "parent": "0ce9c88e-5ca7-4f3e-851a-59ba9b232e76",
+  "parent": "65fe0df8-acd4-436b-9bd2-c215df00c1e4-header",
   "properties": {
     "textFormat": {
       "value": "html"
@@ -12,7 +12,7 @@
       "value": "{{false}}"
     },
     "text": {
-      "value": "Hello {{globals.currentUser.firstName}}👋"
+      "value": "Form title"
     },
     "loadingState": {
       "value": "{{false}}"
@@ -36,13 +36,13 @@
       "value": "var(--cc-primary-text)"
     },
     "textSize": {
-      "value": "{{14}}"
+      "value": 16
     },
     "textAlign": {
       "value": "left"
     },
     "fontWeight": {
-      "value": "normal"
+      "value": "bold"
     },
     "decoration": {
       "value": "none"
@@ -75,7 +75,7 @@
       "value": "default"
     },
     "boxShadow": {
-      "value": "0px 0px 0px 0px #00000040"
+      "value": "0px 0px 0px 0px #00000090"
     },
     "borderColor": {
       "value": "#ffffff00"
@@ -99,23 +99,23 @@
   "validation": {},
   "layouts": [
     {
-      "id": "92d2bb97-c2b8-435c-bcb5-41660d8bdbb9",
+      "id": "fe2144bb-b588-45c3-928c-2edecac841a0",
       "type": "desktop",
       "top": 10,
-      "left": 13,
-      "width": 7,
+      "left": 1,
+      "width": 13.953488372093023,
       "height": 40,
-      "componentId": "25443864-2fe6-401c-aed8-8ec56f97b7cd",
+      "componentId": "2980e770-fa0f-4620-bb1d-1e73c4d74517",
       "dimensionUnit": "count"
     },
     {
-      "id": "17efbb7d-9326-4320-8847-695a5389c17f",
+      "id": "edcfc9f0-8ebf-4cf7-bf09-460e35831bd1",
       "type": "mobile",
-      "top": 80,
-      "left": 31,
-      "width": 7,
+      "top": 10,
+      "left": 1,
+      "width": 13.953488372093023,
       "height": 40,
-      "componentId": "25443864-2fe6-401c-aed8-8ec56f97b7cd",
+      "componentId": "2980e770-fa0f-4620-bb1d-1e73c4d74517",
       "dimensionUnit": "count"
     }
   ]
