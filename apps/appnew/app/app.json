@@ -1,0 +1,13 @@
+{
+  "id": "2dcf9d7e-88e7-443e-98c6-ca28581309fd",
+  "name": "appnew",
+  "type": "front-end",
+  "slug": "eabc3cd3-db60-49d8-a183-ac35dbc185eb",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "menuhome",
+  "tooljetVersion": "3.21.31-beta-ee"
+}
