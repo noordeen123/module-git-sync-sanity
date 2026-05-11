@@ -1,0 +1,13 @@
+{
+  "id": "90c1aad7-42ff-416a-b0f8-570daf25d6c8",
+  "name": "module_Copy",
+  "type": "module",
+  "slug": "dbacb2d6-9a97-4916-909a-9995b03a7ad4",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "archive",
+  "tooljetVersion": "3.21.31-beta-ee"
+}

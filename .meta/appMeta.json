@@ -10,5 +10,9 @@
   "3afbc73e-c36c-41da-aff5-df030f2beb68": {
     "appPath": "apps/app3",
     "updatedAt": "2026-05-02T12:11:30.841Z"
+  },
+  "2dcf9d7e-88e7-443e-98c6-ca28581309fd": {
+    "appPath": "apps/appnew",
+    "updatedAt": "2026-05-11T19:02:47.291Z"
   }
 }
