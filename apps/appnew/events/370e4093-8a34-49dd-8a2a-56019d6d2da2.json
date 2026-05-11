@@ -1,0 +1,18 @@
+{
+  "id": "370e4093-8a34-49dd-8a2a-56019d6d2da2",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onPageLoad",
+    "message": "Hello world!",
+    "queryId": "830666cd-7fc1-4c21-8e52-8c20b9a1615f",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "page",
+    "queryName": "restapi1",
+    "parameters": {}
+  },
+  "sourceId": "785a9054-194f-4ff9-a596-e92f06e5e953",
+  "target": "page",
+  "appVersionId": "8ac1b55a-1050-4d03-a40b-018d226e8f47"
+}

@@ -10,7 +10,11 @@
     "backgroundFxQuery": "",
     "appMode": "auto"
   },
-  "pageSettings": {},
+  "pageSettings": {
+    "properties": {
+      "position": "top"
+    }
+  },
   "showViewerNavigation": true,
   "homePageId": "79391a49-d2a1-4295-a37f-0d1782e6f0ec",
   "versionType": "branch",
