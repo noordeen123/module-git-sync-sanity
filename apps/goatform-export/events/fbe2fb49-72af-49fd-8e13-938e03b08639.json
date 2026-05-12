@@ -1,0 +1,16 @@
+{
+  "id": "fbe2fb49-72af-49fd-8e13-938e03b08639",
+  "name": "form1 On submit",
+  "index": 0,
+  "event": {
+    "eventId": "onSubmit",
+    "message": "The form is submitted",
+    "actionId": "show-alert",
+    "alertType": "info",
+    "component": "form1",
+    "runOnlyIf": "{{components.f9a1ae86-071b-4b60-aba8-385be763040e.isValid}}"
+  },
+  "sourceId": "f9a1ae86-071b-4b60-aba8-385be763040e",
+  "target": "component",
+  "appVersionId": "3cbccd04-d283-400b-9df4-f568e897c055"
+}
