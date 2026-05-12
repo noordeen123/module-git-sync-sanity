@@ -14,5 +14,9 @@
   "2dcf9d7e-88e7-443e-98c6-ca28581309fd": {
     "appPath": "apps/appnew",
     "updatedAt": "2026-05-11T20:02:06.607Z"
+  },
+  "f3999636-3ccb-4dc4-ad45-d16ebff2960b": {
+    "appPath": "apps/control-dashboard-export",
+    "updatedAt": "2026-05-12T06:57:56.270Z"
   }
 }
