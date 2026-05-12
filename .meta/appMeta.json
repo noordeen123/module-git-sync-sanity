@@ -30,5 +30,9 @@
   "46dfe29a-9e63-4a62-9f5d-1c3f1fc3aa57": {
     "appPath": "apps/impoereded",
     "updatedAt": "2026-05-12T07:34:41.821Z"
+  },
+  "bd4cc3b0-1cca-471f-84c1-581f8ddc1f58": {
+    "appPath": "apps/permssion",
+    "updatedAt": "2026-05-12T10:30:54.325Z"
   }
 }
