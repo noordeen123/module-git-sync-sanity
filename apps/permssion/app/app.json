@@ -1,0 +1,13 @@
+{
+  "id": "bd4cc3b0-1cca-471f-84c1-581f8ddc1f58",
+  "name": "permssion",
+  "type": "front-end",
+  "slug": "fb75e4d3-e199-4a50-8317-e439be96f055",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "home",
+  "tooljetVersion": "3.21.31-beta-ee"
+}
