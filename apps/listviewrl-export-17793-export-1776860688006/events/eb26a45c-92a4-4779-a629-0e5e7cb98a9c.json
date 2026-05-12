@@ -1,0 +1,18 @@
+{
+  "id": "eb26a45c-92a4-4779-a629-0e5e7cb98a9c",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "da3e3cef-7ca5-4118-98c1-9104a5d820f8",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "icon1",
+    "queryName": "delete",
+    "parameters": {}
+  },
+  "sourceId": "80e80425-b763-4ed4-99d1-2f5427245e6d",
+  "target": "component",
+  "appVersionId": "34baa81a-d5a7-49ad-8604-06ede0ed1222"
+}

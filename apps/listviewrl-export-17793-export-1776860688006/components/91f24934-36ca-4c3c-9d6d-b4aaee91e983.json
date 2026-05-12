@@ -1,0 +1,62 @@
+{
+  "id": "91f24934-36ca-4c3c-9d6d-b4aaee91e983",
+  "name": "verticaldivider1",
+  "type": "VerticalDivider",
+  "pageId": "0fc2e9d3-015f-4f29-b593-1c8599aa3dd7",
+  "parent": "53173d3c-a3f5-49e4-8ee0-4d09db07a42d",
+  "properties": {
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "dividerColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "dividerStyle": {
+      "value": "solid"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "31970dde-9928-422a-8206-1410e79571f8",
+      "type": "desktop",
+      "top": 0,
+      "left": 37,
+      "width": 1,
+      "height": 200,
+      "componentId": "91f24934-36ca-4c3c-9d6d-b4aaee91e983",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "adbd766c-7ca4-4998-baa0-a442671ac4ec",
+      "type": "mobile",
+      "top": 30,
+      "left": 37,
+      "width": 1,
+      "height": 100,
+      "componentId": "91f24934-36ca-4c3c-9d6d-b4aaee91e983",
+      "dimensionUnit": "count"
+    }
+  ]
+}

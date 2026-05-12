@@ -1,0 +1,66 @@
+{
+  "id": "071d5f35-bc4b-440f-a5a0-f929adab9fed",
+  "name": "fetch",
+  "options": {
+    "operation": "list_rows",
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "table_id": "48457f42-63a5-416e-a501-0f5f74cee92d",
+    "join_table": {
+      "joins": [
+        {
+          "id": 1770110247458,
+          "conditions": {
+            "operator": "AND",
+            "conditionsList": [
+              {
+                "operator": "=",
+                "leftField": {
+                  "table": "48457f42-63a5-416e-a501-0f5f74cee92d"
+                },
+                "rightField": {}
+              }
+            ]
+          },
+          "joinType": "INNER"
+        }
+      ],
+      "from": {
+        "name": "48457f42-63a5-416e-a501-0f5f74cee92d",
+        "type": "Table"
+      },
+      "fields": []
+    },
+    "list_rows": {
+      "order_filters": {
+        "0bd2e89d-bb6d-40e0-a625-c5c7c3ea9f42": {
+          "column": "id",
+          "order": "asc",
+          "id": "0bd2e89d-bb6d-40e0-a625-c5c7c3ea9f42"
+        }
+      },
+      "where_filters": {
+        "0d1280a4-7657-421a-aa2c-7dcebeb1aa41": {
+          "column": "",
+          "operator": "",
+          "value": "",
+          "id": "0d1280a4-7657-421a-aa2c-7dcebeb1aa41"
+        }
+      },
+      "limit": ""
+    },
+    "runOnPageLoad": true,
+    "transformations": {
+      "javascript": "const selectedStatus = components.dropdown1.value;\nconst selectedPriority = components.dropdown2.value;\n\nlet filteredData = data;\n\n// Filter by status if not \"All\"\nif (selectedStatus !== 'All') {\n  filteredData = filteredData.filter(ticket => ticket.status === selectedStatus);\n}\n\n// Filter by priority if not \"All\"\nif (selectedPriority !== 'All') {\n  filteredData = filteredData.filter(ticket => ticket.priority === selectedPriority);\n}\n\nreturn filteredData;",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    },
+    "delete_rows": {
+      "limit": 1,
+      "order_column": "id"
+    }
+  },
+  "dataSourceId": "78a132a9-725a-4923-8f0c-f54d09e571be",
+  "appVersionId": "34baa81a-d5a7-49ad-8604-06ede0ed1222",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}
