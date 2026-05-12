@@ -1,14 +1,14 @@
 {
-  "id": "00956735-cc35-4fde-8a79-8a0186d39596",
-  "name": "end user page",
-  "handle": "page-1",
+  "id": "c547a7e1-cd9f-4b63-bcf5-f46247424f3c",
+  "name": "yukti page",
+  "handle": "page-2",
   "index": 999,
   "disabled": false,
   "hidden": false,
   "icon": null,
   "autoComputeLayout": true,
   "appVersionId": "a34c5af3-c01f-439b-a293-508bff597369",
-  "pageGroupIndex": 2,
+  "pageGroupIndex": 3,
   "pageGroupId": null,
   "isPageGroup": false,
   "url": null,
@@ -28,10 +28,5 @@
     "showOnDesktop": false,
     "backgroundColor": "var(--cc-surface1-surface)"
   },
-  "appId": "",
-  "permissions": {
-    "permissionGroup": [
-      "end-user"
-    ]
-  }
+  "appId": ""
 }

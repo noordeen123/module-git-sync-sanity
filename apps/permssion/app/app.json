@@ -3,7 +3,7 @@
   "name": "permssion",
   "type": "front-end",
   "slug": "fb75e4d3-e199-4a50-8317-e439be96f055",
-  "isPublic": null,
+  "isPublic": true,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,

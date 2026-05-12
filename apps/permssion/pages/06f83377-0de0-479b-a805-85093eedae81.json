@@ -1,14 +1,14 @@
 {
-  "id": "00956735-cc35-4fde-8a79-8a0186d39596",
-  "name": "end user page",
-  "handle": "page-1",
+  "id": "06f83377-0de0-479b-a805-85093eedae81",
+  "name": "devfox page",
+  "handle": "page-1-1",
   "index": 999,
   "disabled": false,
   "hidden": false,
   "icon": null,
   "autoComputeLayout": true,
   "appVersionId": "a34c5af3-c01f-439b-a293-508bff597369",
-  "pageGroupIndex": 2,
+  "pageGroupIndex": 4,
   "pageGroupId": null,
   "isPageGroup": false,
   "url": null,
@@ -28,10 +28,5 @@
     "showOnDesktop": false,
     "backgroundColor": "var(--cc-surface1-surface)"
   },
-  "appId": "",
-  "permissions": {
-    "permissionGroup": [
-      "end-user"
-    ]
-  }
+  "appId": ""
 }
