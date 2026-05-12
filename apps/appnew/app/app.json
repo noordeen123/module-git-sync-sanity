@@ -3,7 +3,7 @@
   "name": "appnew",
   "type": "front-end",
   "slug": "eabc3cd3-db60-49d8-a183-ac35dbc185eb",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
