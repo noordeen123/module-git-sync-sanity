@@ -1,0 +1,18 @@
+{
+  "id": "5abfdbc9-288f-46f4-8ec7-56cebf734e70",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "93c41418-ad54-4b84-bcc0-c39963824f27",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "stationWiseValueUpdateButton",
+    "queryName": "stationWiseValueUpdateButtonScript1",
+    "parameters": {}
+  },
+  "sourceId": "0388ad8e-16c6-4b2d-842d-ad4184d0e0c0",
+  "target": "component",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

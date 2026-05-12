@@ -1,0 +1,27 @@
+{
+  "id": "58f90d29-0163-4b64-b1b6-63620c1c7ec0",
+  "name": "stationListApi",
+  "options": {
+    "method": "get",
+    "url": "api/v1/config/stationsList",
+    "headers": [],
+    "url_params": [],
+    "body": [],
+    "cookies": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": null,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "arrayValuesChanged": true,
+    "runOnPageLoad": true,
+    "transformations": {
+      "javascript": "// Query results are available as the `data` variable\nreturn data",
+      "python": ""
+    }
+  },
+  "dataSourceId": "973417be-0d52-4b98-95d3-88c583ff8968",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a2debd8b-9349-4355-a3ee-296ffb5f0919",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "df86d2f5-e736-439d-82e1-b5f9e57e4d0c",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "stationWiseValueUpdateCancelButton2",
+    "queryName": "stationWiseValueUpdateCancelButton2Script1",
+    "parameters": {}
+  },
+  "sourceId": "699f53ba-0857-45f4-ad1c-318a95e772dc",
+  "target": "component",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

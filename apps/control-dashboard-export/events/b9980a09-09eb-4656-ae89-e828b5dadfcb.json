@@ -1,0 +1,18 @@
+{
+  "id": "b9980a09-09eb-4656-ae89-e828b5dadfcb",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "87752e4d-db10-47c6-ad95-6fe35f1227f9",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "globalValuesUpdateCancelButton",
+    "queryName": "globalValuesUpdateCancelButtonScript1",
+    "parameters": {}
+  },
+  "sourceId": "319c9710-262b-4b07-b3b7-03349e7b1d17",
+  "target": "component",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

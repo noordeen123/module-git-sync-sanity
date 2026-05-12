@@ -1,0 +1,27 @@
+{
+  "id": "f742d67c-fd64-4d62-83d3-cc270c72de33",
+  "name": "stationListingPush",
+  "options": {
+    "method": "post",
+    "url": "/aggregator/api/v1/stations",
+    "headers": [],
+    "url_params": [],
+    "body": "{{queries.f2f0f36b-e83c-41d1-9d8e-0f0fc5a82f5a.data}}",
+    "cookies": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": null,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "arrayValuesChanged": true,
+    "runOnPageLoad": false,
+    "transformations": {
+      "javascript": "// Query results are available as the `data` variable\nreturn data",
+      "python": ""
+    }
+  },
+  "dataSourceId": "5248c6fd-ccb2-4fde-b8e0-bdab340229da",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}

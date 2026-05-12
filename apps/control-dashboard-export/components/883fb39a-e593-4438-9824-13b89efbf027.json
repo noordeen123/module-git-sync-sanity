@@ -1,0 +1,137 @@
+{
+  "id": "883fb39a-e593-4438-9824-13b89efbf027",
+  "name": "bookingCutoffTimeInput",
+  "type": "NumberInput",
+  "pageId": "a658d462-470f-459a-89f5-ec80107df33b",
+  "parent": "c9dde9ea-6db8-414e-ac2f-97c9616c74e4",
+  "properties": {
+    "label": {
+      "value": "Booking Cutoff Time"
+    },
+    "value": {
+      "value": 0
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "placeholder": {
+      "value": "Enter value"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "showClearBtn": {
+      "value": "{{false}}"
+    },
+    "decimalPlaces": {
+      "value": null
+    },
+    "disabledState": {
+      "value": "{{false}}",
+      "fxActive": false
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "errorTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "color": {
+      "value": "var(--cc-primary-text)"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "width": {
+      "value": "{{33}}"
+    },
+    "alignment": {
+      "value": "left"
+    },
+    "auto": {
+      "value": "{{false}}"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "icon": {
+      "value": "IconHome2"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "widthType": {
+      "value": "ofComponent"
+    },
+    "placeholderTextColor": {
+      "value": "var(--cc-placeholder-text)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "minValue": {
+      "value": null
+    },
+    "maxValue": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "0f9f3525-52a4-471b-a5fd-ac2042ee974d",
+      "type": "desktop",
+      "top": 0,
+      "left": 0,
+      "width": 43,
+      "height": 40,
+      "componentId": "883fb39a-e593-4438-9824-13b89efbf027",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "6190de24-1e08-4568-a32b-053e24f42525",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "883fb39a-e593-4438-9824-13b89efbf027",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "9877830e-b2d5-419e-814e-131b54423372",
+  "name": "advanceBookingLimitInput",
+  "type": "NumberInput",
+  "pageId": "a658d462-470f-459a-89f5-ec80107df33b",
+  "parent": "c9dde9ea-6db8-414e-ac2f-97c9616c74e4",
+  "properties": {
+    "label": {
+      "value": "Advance Booking Limit"
+    },
+    "value": {
+      "value": 0
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "placeholder": {
+      "value": "Enter value"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "showClearBtn": {
+      "value": "{{false}}"
+    },
+    "decimalPlaces": {
+      "value": null
+    },
+    "disabledState": {
+      "value": "{{false}}",
+      "fxActive": false
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "errorTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "color": {
+      "value": "var(--cc-primary-text)"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "width": {
+      "value": "{{33}}"
+    },
+    "alignment": {
+      "value": "left"
+    },
+    "auto": {
+      "value": "{{false}}"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "icon": {
+      "value": "IconHome2"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "widthType": {
+      "value": "ofComponent"
+    },
+    "placeholderTextColor": {
+      "value": "var(--cc-placeholder-text)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "minValue": {
+      "value": null
+    },
+    "maxValue": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "f5d5cb33-8c2d-4585-9f89-45f715b20a11",
+      "type": "desktop",
+      "top": 150,
+      "left": 0,
+      "width": 43,
+      "height": 40,
+      "componentId": "9877830e-b2d5-419e-814e-131b54423372",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "1348f7c1-61d0-4eab-b341-69a5f264f43e",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "9877830e-b2d5-419e-814e-131b54423372",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "d44e1ecb-1073-4d58-893a-6e517a872019",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "key": "activeStations",
+    "value": "{{queries.58f90d29-0163-4b64-b1b6-63620c1c7ec0.data?.swiggy_supported_junctions}}",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "set-custom-variable",
+    "alertType": "info"
+  },
+  "sourceId": "58f90d29-0163-4b64-b1b6-63620c1c7ec0",
+  "target": "data_query",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

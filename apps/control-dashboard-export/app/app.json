@@ -1,0 +1,13 @@
+{
+  "id": "f3999636-3ccb-4dc4-ad45-d16ebff2960b",
+  "name": "control-dashboard-export",
+  "type": "front-end",
+  "slug": "658234b8-1131-46bb-95be-e221a2348bb9",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "share",
+  "tooljetVersion": "3.21.31-beta-ee"
+}

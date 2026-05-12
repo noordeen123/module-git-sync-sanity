@@ -1,0 +1,12 @@
+{
+  "id": "93c41418-ad54-4b84-bcc0-c39963824f27",
+  "name": "stationWiseValueUpdateButtonScript1",
+  "options": {
+    "code": "//push global values in respective keys\n\nqueries.constructRequestBody.run({\n  additionalScope:{\n    inputs: {\n        stationWiseOverRides: {\n    code: components.stationSelector.value,\n    openingTime: \n      components.openingTimePicker.value.split(':').slice(0, 2).join(':'),\n    closingTime: \n            components.closingTimePicker.value.split(':').slice(0, 2).join(':'),\n    bookingCutoffTime: components.bookingCutOffTime.value,\n    minimumHaltTimeMinutes: components.minHaltTimeInput.value,\n    hasPromotion: false //hard coded for now\n  }\n    }\n  }\n}).then(()=>{\n  queries.stationListingPush.run()\n})\n\n\n",
+    "parameters": []
+  },
+  "dataSourceId": "c2e034c9-7209-4bf1-a015-b0ef6a4f41e8",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

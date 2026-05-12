@@ -1,0 +1,13 @@
+{
+  "id": "f2f0f36b-e83c-41d1-9d8e-0f0fc5a82f5a",
+  "name": "constructRequestBody",
+  "options": {
+    "code": "const body = {};\n\n// Include 'stations' key if 'stations' is provided\nif (typeof inputs.stations !== 'undefined') {\n  body.stations = inputs.stations;\n} else {\n  body.stations =  (function(apiStations, configStations) {\n    // Normalize values to lowercase and create sets for uniqueness\n    const apiSet = new Set(apiStations?.map(station => station.toLowerCase()));\n    const configSet = new Set(configStations?.map(station => station.toLowerCase()));\n    \n    // Merge the two sets\n    const mergedSet = new Set([...apiSet, ...configSet]);\n\n    // Convert back to array with original case from the API data as a priority, and if not, from config\n    const reconciledList = Array.from(mergedSet).map(station => {\n        // Find the original case-sensitive station name from the API or config array\n        const apiMatch = apiStations?.find(s => s.toLowerCase() === station);\n        return apiMatch ? apiMatch : configStations?.find(s => s.toLowerCase() === station);\n    });\n\n    return reconciledList;\n})(queries.stationListApi.data.swiggy_supported_junctions, variables.STATION_LIST.value)\n }\n\n// Global variables to include if provided\nconst globalKeys = [\n  'cuisines',\n  'minimumOrderValue',\n  'bookingCutoffTime',\n  'openingTime',\n  'closingTime',\n  'advanceBookingLimit',\n  'hasPromotion',\n  'minimumHaltTimeMinutes',\n];\n\nconst globalDefaultConfig = {\n  \"cuisines\": [\"North Indian\",\"South Indian\"],\n  \"minimumOrderValue\": 100, \n  \"bookingCutoffTime\": 60,  \n  \"openingTime\": \"06:00\", \n  \"closingTime\": \"23:00\",\n  \"advanceBookingLimit\": 24,\n  \"hasPromotion\": false,\n  \"minimumHaltTimeMinutes\": 2\n}\n\nglobalKeys.forEach((key) => {\n  if (typeof inputs[key] !== 'undefined') {\n    body[key] = inputs[key];\n  } \n});\n\n// Merge station-wise overrides directly into the body\nif (typeof inputs.stationWiseOverRides !== 'undefined') {\n  body.stationData = [inputs.stationWiseOverRides];\n   // also send default values for global keys\n  Object.keys(globalDefaultConfig).forEach(function(key) {\n    body[key] = globalDefaultConfig[key];\n});\n}\n\nreturn body;\n",
+    "parameters": [],
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "c2e034c9-7209-4bf1-a015-b0ef6a4f41e8",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

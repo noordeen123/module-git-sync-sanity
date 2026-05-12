@@ -1,0 +1,21 @@
+{
+  "id": "4436356b-4c8b-421d-9401-b891ad1d8d82",
+  "name": "onSelect",
+  "index": 0,
+  "event": {
+    "eventId": "onSelect",
+    "message": "Hello world!",
+    "queryId": "86e7f6f0-05f7-4bc0-9ec3-ee430cb28f14",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "stationSelector2",
+    "queryName": "GetCutOffTime",
+    "parameters": {
+      "rep": [],
+      "tag": "iOM"
+    }
+  },
+  "sourceId": "3c0690cc-494a-44d2-ae11-9817d1e35d3e",
+  "target": "component",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

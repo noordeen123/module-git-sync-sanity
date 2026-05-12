@@ -1,0 +1,18 @@
+{
+  "id": "241727ce-bfed-4ee6-8147-8d97a3d3b752",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "275feb71-7540-4f94-9ef2-541d2fbc0f73",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "activateStationsSubmitButton",
+    "queryName": "activateStationsSubmitButtonScript1",
+    "parameters": {}
+  },
+  "sourceId": "740d4b29-fd1d-4a02-8ce4-c2413423420c",
+  "target": "component",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "3ca759a3-3f2a-4c7c-bbcf-5ebbfc0cd2e9",
+  "name": "stationWiseValueUpdateCancelButton",
+  "type": "Button",
+  "pageId": "a658d462-470f-459a-89f5-ec80107df33b",
+  "parent": "00402d11-f7fa-4912-9f76-dfd317bf5bf3-footer",
+  "properties": {
+    "text": {
+      "value": "Cancel"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}",
+      "fxActive": false
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#FFFFFF"
+    },
+    "borderColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "icon": {
+      "value": "IconAlignBoxBottomLeft"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "type": {
+      "value": "primary"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "d5143fe4-7397-4b2a-855f-889ebbd88a3f",
+      "type": "desktop",
+      "top": 10,
+      "left": 11,
+      "width": 10,
+      "height": 40,
+      "componentId": "3ca759a3-3f2a-4c7c-bbcf-5ebbfc0cd2e9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "23a9c3e8-412c-4865-b85f-665a854d8c19",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "3ca759a3-3f2a-4c7c-bbcf-5ebbfc0cd2e9",
+      "dimensionUnit": "count"
+    }
+  ]
+}

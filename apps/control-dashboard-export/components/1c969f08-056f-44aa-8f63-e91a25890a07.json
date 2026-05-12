@@ -1,0 +1,115 @@
+{
+  "id": "1c969f08-056f-44aa-8f63-e91a25890a07",
+  "name": "activateStationsCancelButton",
+  "type": "Button",
+  "pageId": "a658d462-470f-459a-89f5-ec80107df33b",
+  "parent": "89c1f0e1-aeb4-4290-aa5f-a3209d470f10-Activate/ Deactivate Stations",
+  "properties": {
+    "text": {
+      "value": "Discard Changes"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#FFFFFF"
+    },
+    "borderColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "icon": {
+      "value": "IconAlignBoxBottomLeft"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "type": {
+      "value": "primary"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "b1619517-8a9a-4013-82d1-d76c61e58aea",
+      "type": "desktop",
+      "top": 200,
+      "left": 13,
+      "width": 10,
+      "height": 40,
+      "componentId": "1c969f08-056f-44aa-8f63-e91a25890a07",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5e0e44c9-cc94-44f1-ad80-dfaa2d7b364f",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "1c969f08-056f-44aa-8f63-e91a25890a07",
+      "dimensionUnit": "count"
+    }
+  ]
+}

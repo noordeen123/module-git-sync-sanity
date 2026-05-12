@@ -1,0 +1,17 @@
+{
+  "id": "2958af68-cd43-44fc-8b2f-2884aa6aa4ce",
+  "name": "SetCutOffTime",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "raw_message": "{\n  \"station_cutoff_times\": [\n    {\n      \"station_code\": \"{{components.3c0690cc-494a-44d2-ae11-9817d1e35d3e.value}}\",\n      \"cutoff_time_minutes\": {{components.36162391-3e62-49a3-a0c6-65d4de581926.value}}\n    }\n  ]\n}",
+    "transformations": {
+      "javascript": "// Query results are available as the `data` variable\nreturn data",
+      "python": ""
+    }
+  },
+  "dataSourceId": "f1107ce3-6d70-48f4-8e89-a7a1e5c21d75",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "grpcv2",
+  "dataSourceType": "default"
+}

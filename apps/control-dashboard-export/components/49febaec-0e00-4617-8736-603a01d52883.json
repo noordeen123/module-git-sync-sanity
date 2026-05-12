@@ -1,0 +1,122 @@
+{
+  "id": "49febaec-0e00-4617-8736-603a01d52883",
+  "name": "text5",
+  "type": "Text",
+  "pageId": "a658d462-470f-459a-89f5-ec80107df33b",
+  "parent": "89c1f0e1-aeb4-4290-aa5f-a3209d470f10-Activate/ Deactivate Stations",
+  "properties": {
+    "text": {
+      "value": "{{'List of Swiggy supported junctions' || queries.58f90d29-0163-4b64-b1b6-63620c1c7ec0.data?.message}}"
+    },
+    "textFormat": {
+      "value": "html"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{true}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "#fff00000"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "textAlign": {
+      "value": "left"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "decoration": {
+      "value": "none"
+    },
+    "transformation": {
+      "value": "none"
+    },
+    "fontStyle": {
+      "value": "normal"
+    },
+    "lineHeight": {
+      "value": "{{1.5}}"
+    },
+    "textIndent": {
+      "value": "{{0}}"
+    },
+    "letterSpacing": {
+      "value": "{{0}}"
+    },
+    "wordSpacing": {
+      "value": "{{0}}"
+    },
+    "fontVariant": {
+      "value": "normal"
+    },
+    "verticalAlignment": {
+      "value": "center"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "borderColor": {
+      "value": "#ffffff00"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "isScrollRequired": {
+      "value": "enabled"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "8a4e7332-0db7-4563-9759-d22d0bec950e",
+      "type": "desktop",
+      "top": 0,
+      "left": 1,
+      "width": 10,
+      "height": 50,
+      "componentId": "49febaec-0e00-4617-8736-603a01d52883",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "be20978d-be6e-4748-baac-fc2bb3e8eb99",
+      "type": "mobile",
+      "top": 20,
+      "left": 27,
+      "width": 6,
+      "height": 40,
+      "componentId": "49febaec-0e00-4617-8736-603a01d52883",
+      "dimensionUnit": "count"
+    }
+  ]
+}

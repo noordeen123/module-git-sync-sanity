@@ -1,0 +1,18 @@
+{
+  "id": "2be696f4-fa4f-4dba-998e-1d3ea56e3174",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "07cf1984-ac2e-4958-86f1-5d869f088fc2",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "globalValuesUpdateButton",
+    "queryName": "globalValuesUpdateButtonScript1",
+    "parameters": {}
+  },
+  "sourceId": "60b639e9-ff92-47c2-bb9d-77ced4aac571",
+  "target": "component",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

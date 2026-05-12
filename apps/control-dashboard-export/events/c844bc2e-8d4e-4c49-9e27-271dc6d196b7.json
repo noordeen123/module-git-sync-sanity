@@ -1,0 +1,18 @@
+{
+  "id": "c844bc2e-8d4e-4c49-9e27-271dc6d196b7",
+  "name": "onSubmit",
+  "index": 0,
+  "event": {
+    "eventId": "onSubmit",
+    "message": "Hello world!",
+    "queryId": "234791de-369c-4d26-a4f1-7bbf69462a00",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "stationWiseValueConfigForm2",
+    "queryName": "stationWiseValueConfigForm2Script1",
+    "parameters": {}
+  },
+  "sourceId": "7af03d26-07b9-40d4-a42f-176773869c07",
+  "target": "component",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

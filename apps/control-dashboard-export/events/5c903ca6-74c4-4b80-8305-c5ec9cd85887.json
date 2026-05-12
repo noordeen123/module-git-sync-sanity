@@ -1,0 +1,30 @@
+{
+  "id": "5c903ca6-74c4-4b80-8305-c5ec9cd85887",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "2958af68-cd43-44fc-8b2f-2884aa6aa4ce",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "stationWiseValueUpdateButton2",
+    "queryName": "SetCutOffTime",
+    "parameters": {
+      "rep": [
+        "options",
+        {
+          "_dict": {
+            "onFailure": null,
+            "onSuccess": null,
+            "additionalScope": null
+          }
+        }
+      ],
+      "tag": "iOM"
+    }
+  },
+  "sourceId": "312ad407-923a-4ae7-a766-9cb1a1fdb2da",
+  "target": "component",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

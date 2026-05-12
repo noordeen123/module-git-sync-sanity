@@ -1,0 +1,124 @@
+{
+  "id": "70249b63-5162-4832-ba1e-a0067f6e6978",
+  "name": "dashboardHeader",
+  "type": "Text",
+  "pageId": "a658d462-470f-459a-89f5-ec80107df33b",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": " 🚞 Railway Station Control Dashboard | Food on train 🍔🚂"
+    },
+    "textFormat": {
+      "value": "html"
+    },
+    "visibility": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}",
+      "fxActive": false
+    },
+    "dynamicHeight": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textSize": {
+      "value": "30"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "textAlign": {
+      "value": "center"
+    },
+    "backgroundColor": {
+      "value": "#fff00000"
+    },
+    "decoration": {
+      "value": "none"
+    },
+    "transformation": {
+      "value": "none"
+    },
+    "fontStyle": {
+      "value": "normal"
+    },
+    "lineHeight": {
+      "value": "{{1.5}}"
+    },
+    "textIndent": {
+      "value": "{{0}}"
+    },
+    "letterSpacing": {
+      "value": "{{0}}"
+    },
+    "wordSpacing": {
+      "value": "{{0}}"
+    },
+    "fontVariant": {
+      "value": "normal"
+    },
+    "verticalAlignment": {
+      "value": "center"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "borderColor": {
+      "value": "#ffffff00"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "isScrollRequired": {
+      "value": "enabled"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "752ecd29-5b5b-458e-82f4-6e3b3e335fd9",
+      "type": "desktop",
+      "top": 40,
+      "left": 0,
+      "width": 43,
+      "height": 50,
+      "componentId": "70249b63-5162-4832-ba1e-a0067f6e6978",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "0dc3eba1-262a-4daf-bc05-bf15957707f6",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "70249b63-5162-4832-ba1e-a0067f6e6978",
+      "dimensionUnit": "count"
+    }
+  ]
+}
