@@ -1,0 +1,91 @@
+{
+  "id": "a0b4ddfb-a5b0-4b52-a463-cd8d76aeb0db",
+  "name": "dropdownlegacy1",
+  "type": "DropDown",
+  "pageId": "84ba0df2-ae74-45ad-ae31-e7c19115ca74",
+  "parent": "f9a1ae86-071b-4b60-aba8-385be763040e",
+  "properties": {
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "schema": {
+      "value": "{{[\t{label: 'One',value: 1,disable: false,visible: true,default: true},{label: 'Two',value: 2,disable: false,visible: true},{label: 'Three',value: 3,disable: false,visible: true}\t]}}"
+    },
+    "label": {
+      "value": "Select"
+    },
+    "value": {
+      "value": "{{2}}"
+    },
+    "values": {
+      "value": "{{[1,2,3]}}"
+    },
+    "display_values": {
+      "value": "{{[\"one\", \"two\", \"three\"]}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "placeholder": {
+      "value": "Select an option"
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "4"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "justifyContent": {
+      "value": "left"
+    },
+    "selectedTextColor": {
+      "value": "var(--cc-primary-text)"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "f2875614-2668-494f-b7b0-ac7ad498ff19",
+      "type": "desktop",
+      "top": 560,
+      "left": 2,
+      "width": 24,
+      "height": 30,
+      "componentId": "a0b4ddfb-a5b0-4b52-a463-cd8d76aeb0db",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "2275237a-bc5f-4161-bf45-5b2a1d7b2c1a",
+      "type": "mobile",
+      "top": 560,
+      "left": 2,
+      "width": 24,
+      "height": 30,
+      "componentId": "a0b4ddfb-a5b0-4b52-a463-cd8d76aeb0db",
+      "dimensionUnit": "count"
+    }
+  ]
+}

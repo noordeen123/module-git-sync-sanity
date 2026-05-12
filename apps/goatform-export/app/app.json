@@ -1,0 +1,13 @@
+{
+  "id": "5e0d8bc4-c68c-495e-ab0b-f6cee1192650",
+  "name": "goatform-export",
+  "type": "front-end",
+  "slug": "f45c4c92-26a6-4245-a2c6-926ed0e34768",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "archive",
+  "tooljetVersion": "3.21.31-beta-ee"
+}

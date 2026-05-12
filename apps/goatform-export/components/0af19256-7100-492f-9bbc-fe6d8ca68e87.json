@@ -1,0 +1,96 @@
+{
+  "id": "0af19256-7100-492f-9bbc-fe6d8ca68e87",
+  "name": "checkbox1",
+  "type": "Checkbox",
+  "pageId": "84ba0df2-ae74-45ad-ae31-e7c19115ca74",
+  "parent": "f9a1ae86-071b-4b60-aba8-385be763040e",
+  "properties": {
+    "label": {
+      "value": "Label"
+    },
+    "defaultValue": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "checkboxColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "uncheckedColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "handleColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "alignment": {
+      "value": "right"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{true}}"
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "ed323a53-7d0d-4b2f-9ec2-a9eb629050e1",
+      "type": "desktop",
+      "top": 780,
+      "left": 2,
+      "width": 18,
+      "height": 30,
+      "componentId": "0af19256-7100-492f-9bbc-fe6d8ca68e87",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "1ed1a373-6edf-49e4-b3ae-1f07a483c60b",
+      "type": "mobile",
+      "top": 960,
+      "left": 2,
+      "width": 18,
+      "height": 30,
+      "componentId": "0af19256-7100-492f-9bbc-fe6d8ca68e87",
+      "dimensionUnit": "count"
+    }
+  ]
+}
