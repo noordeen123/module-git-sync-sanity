@@ -1,0 +1,68 @@
+{
+  "id": "80e80425-b763-4ed4-99d1-2f5427245e6d",
+  "name": "icon1",
+  "type": "Icon",
+  "pageId": "0fc2e9d3-015f-4f29-b593-1c8599aa3dd7",
+  "parent": "53173d3c-a3f5-49e4-8ee0-4d09db07a42d",
+  "properties": {
+    "icon": {
+      "value": "IconTrash"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "iconColor": {
+      "value": "#000"
+    },
+    "iconAlign": {
+      "value": "center"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "09337af2-47d2-44a6-a066-76b8c2f71546",
+      "type": "desktop",
+      "top": 10,
+      "left": 42,
+      "width": 1,
+      "height": 30,
+      "componentId": "80e80425-b763-4ed4-99d1-2f5427245e6d",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "13efb66f-e7e3-49b1-b630-65e4da46aae7",
+      "type": "mobile",
+      "top": 20,
+      "left": 37,
+      "width": 5,
+      "height": 48,
+      "componentId": "80e80425-b763-4ed4-99d1-2f5427245e6d",
+      "dimensionUnit": "count"
+    }
+  ]
+}

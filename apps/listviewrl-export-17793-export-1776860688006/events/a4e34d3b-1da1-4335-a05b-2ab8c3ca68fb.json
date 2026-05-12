@@ -1,0 +1,18 @@
+{
+  "id": "a4e34d3b-1da1-4335-a05b-2ab8c3ca68fb",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "28ae3476-c4f6-4cb1-a67f-f5d76ff18ea6",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button4",
+    "queryName": "create",
+    "parameters": {}
+  },
+  "sourceId": "782e3b17-3561-49f1-9f80-1541b33df369",
+  "target": "component",
+  "appVersionId": "34baa81a-d5a7-49ad-8604-06ede0ed1222"
+}
