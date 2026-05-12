@@ -1,0 +1,101 @@
+{
+  "id": "4c83eea9-a6ec-40b6-8659-eea6b85bd9a7",
+  "name": "create",
+  "options": {
+    "operation": "create_row",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "table_id": "48457f42-63a5-416e-a501-0f5f74cee92d",
+    "join_table": {
+      "joins": [
+        {
+          "id": 1770110254527,
+          "conditions": {
+            "operator": "AND",
+            "conditionsList": [
+              {
+                "operator": "=",
+                "leftField": {
+                  "table": "48457f42-63a5-416e-a501-0f5f74cee92d"
+                },
+                "rightField": {}
+              }
+            ]
+          },
+          "joinType": "INNER"
+        }
+      ],
+      "from": {
+        "name": "48457f42-63a5-416e-a501-0f5f74cee92d",
+        "type": "Table"
+      },
+      "fields": []
+    },
+    "list_rows": {},
+    "create_row": {
+      "a87a7274-6daf-4ca8-b3c3-023c71b9775f": {
+        "column": "customerName",
+        "value": "{{components.69def103-c7a7-439a-8c91-4b6113a383ff.value}}"
+      },
+      "1e3163eb-a3fc-4b5f-a750-dd1c88d60c8c": {
+        "column": "customerEmail",
+        "value": "{{components.914fc5c5-dce0-4c0e-9b62-572ab7fa7f7c.value}}"
+      },
+      "1638a83d-7af0-4dae-af48-637983d239ee": {
+        "column": "subject",
+        "value": "{{components.acfc89bf-e570-4bff-8486-cfc5e4477616.value}}"
+      },
+      "145bfc7e-8a7c-4191-be18-269250334910": {
+        "column": "description",
+        "value": "{{components.9fd0d900-a836-45a2-aa67-a2a1e712dc8b.value}}"
+      },
+      "51c0263c-e8ab-4ca7-b7cb-35b35313e436": {
+        "column": "createdDate",
+        "value": "{{moment().format()}}"
+      },
+      "3c8d3fca-d4e7-4d9f-9a15-c331f189d938": {
+        "column": "updatedDate",
+        "value": "{{moment().format()}}"
+      },
+      "0b1b250e-98e7-43ca-952f-110fa1b9b340": {
+        "column": "category",
+        "value": "{{components.310ddc37-5153-411b-aad2-51912dfa6dd6.value}}"
+      },
+      "1601a9a1-28e3-41dc-a971-74ffb07ac918": {
+        "column": "priority",
+        "value": "{{components.807e7b4d-8c0a-42df-99a6-82656b588fe9.value}}"
+      },
+      "68903080-1013-4952-9704-800efa4dbd30": {
+        "column": "status",
+        "value": "{{components.63597367-9583-4a95-a9ad-53768b66a856.value}}"
+      },
+      "f95edec5-bd94-417d-9358-1b1685866cf8": {
+        "column": "assignedAgent",
+        "value": "{{components.9187fa9d-d60d-4ca0-baac-fa3ee632d75a.value}}"
+      },
+      "8b38747b-31a2-431d-8ca4-027151717b21": {
+        "column": "responseTime",
+        "value": "{{components.86a3fe90-9cab-4ff1-8f74-371a759635ab.value}} Mins"
+      },
+      "be97414a-81d6-4d9c-b829-f30c28e4fbe4": {
+        "column": "ticketNumber",
+        "value": "{{queries.1b80432d-9aa7-4850-9edc-72fce328c097.data.ticketNumber}}"
+      },
+      "efd02a9b-4f97-460b-93fe-b5285f75d3e0": {
+        "column": "customerAvatar",
+        "value": "{{queries.1b80432d-9aa7-4850-9edc-72fce328c097.data.customerAvatar}}"
+      },
+      "0bf9c937-8534-4531-9f57-769078498c9a": {
+        "column": "agentAvatar",
+        "value": "{{queries.1b80432d-9aa7-4850-9edc-72fce328c097.data.agentAvatar}}"
+      }
+    },
+    "showSuccessNotification": true,
+    "successMessage": "Ticket Created Successfully",
+    "notificationDuration": "2"
+  },
+  "dataSourceId": "b1ca2a61-fa2a-4bdb-b374-ec52ae24191e",
+  "appVersionId": "34baa81a-d5a7-49ad-8604-06ede0ed1222",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

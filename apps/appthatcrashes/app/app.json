@@ -1,0 +1,13 @@
+{
+  "id": "efeb972d-7bb3-4bf4-b1c9-ec3e9da25b34",
+  "name": "appthatcrashes",
+  "type": "front-end",
+  "slug": "8d084da9-80de-4b37-bf0b-3715febc7e5c",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.31-beta-ee"
+}

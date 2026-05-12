@@ -1,0 +1,12 @@
+{
+  "id": "1b80432d-9aa7-4850-9edc-72fce328c097",
+  "name": "generateTicketData",
+  "options": {
+    "code": "// Generate random ticket number\nconst year = new Date().getFullYear();\nconst randomNum = Math.floor(1000 + Math.random() * 9000);\nconst ticketNumber = `TKT-${year}-${randomNum}`;\n\n// Generate random customer avatar\nconst customerAvatar = `https://i.pravatar.cc/150?img=${Math.floor(1 + Math.random() * 70)}`;\n\n// Generate random agent avatar\nconst agentAvatar = `https://i.pravatar.cc/150?img=${Math.floor(11 + Math.random() * 20)}`;\n\n// Return all values\nreturn {\n  ticketNumber: ticketNumber,\n  customerAvatar: customerAvatar,\n  agentAvatar: agentAvatar\n};",
+    "parameters": []
+  },
+  "dataSourceId": "c2e034c9-7209-4bf1-a015-b0ef6a4f41e8",
+  "appVersionId": "34baa81a-d5a7-49ad-8604-06ede0ed1222",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

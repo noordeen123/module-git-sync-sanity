@@ -18,5 +18,9 @@
   "f3999636-3ccb-4dc4-ad45-d16ebff2960b": {
     "appPath": "apps/control-dashboard-export",
     "updatedAt": "2026-05-12T06:58:12.592Z"
+  },
+  "efeb972d-7bb3-4bf4-b1c9-ec3e9da25b34": {
+    "appPath": "apps/appthatcrashes",
+    "updatedAt": "2026-05-12T07:07:46.434Z"
   }
 }
