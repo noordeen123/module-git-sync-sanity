@@ -1,0 +1,13 @@
+{
+  "id": "46dfe29a-9e63-4a62-9f5d-1c3f1fc3aa57",
+  "name": "impoereded",
+  "type": "front-end",
+  "slug": "b93c7823-d018-4ff0-ac9f-6f1a93c9d672",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "server",
+  "tooljetVersion": "3.21.31-beta-ee"
+}
