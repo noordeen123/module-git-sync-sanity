@@ -1,0 +1,101 @@
+{
+  "id": "af9391e0-8de1-45d5-a532-6af88e48d07e",
+  "name": "listview2",
+  "type": "Listview",
+  "pageId": "e7d576a9-a44d-42bd-97f7-60d9decee25f",
+  "parent": null,
+  "properties": {
+    "dataSourceSelector": {
+      "value": "rawJson"
+    },
+    "data": {
+      "value": "{{[]}}"
+    },
+    "mode": {
+      "value": "list"
+    },
+    "columns": {
+      "value": "{{3}}"
+    },
+    "rowHeight": {
+      "value": "100"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "visible": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "showBorder": {
+      "value": "{{true}}"
+    },
+    "rowsPerPage": {
+      "value": "{{10}}"
+    },
+    "enablePagination": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "e4446d41-dd1e-4b67-b507-0bd0b1cfab71",
+      "type": "desktop",
+      "top": 590,
+      "left": 2,
+      "width": 39,
+      "height": 450,
+      "componentId": "af9391e0-8de1-45d5-a532-6af88e48d07e",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3d49b63b-7480-478f-931d-f25dbd75a82a",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 15,
+      "height": 450,
+      "componentId": "af9391e0-8de1-45d5-a532-6af88e48d07e",
+      "dimensionUnit": "count"
+    }
+  ]
+}
