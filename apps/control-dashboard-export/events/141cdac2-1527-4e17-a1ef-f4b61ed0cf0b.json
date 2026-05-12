@@ -1,0 +1,20 @@
+{
+  "id": "141cdac2-1527-4e17-a1ef-f4b61ed0cf0b",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "component": "bookingCutOffTime2",
+    "componentId": "36162391-3e62-49a3-a0c6-65d4de581926",
+    "componentSpecificActionHandle": "setText",
+    "componentSpecificActionParams": [
+      "{{queries.86e7f6f0-05f7-4bc0-9ec3-ee430cb28f14.data.station_cutoff_times[0].cutoff_time_minutes}}\n"
+    ]
+  },
+  "sourceId": "86e7f6f0-05f7-4bc0-9ec3-ee430cb28f14",
+  "target": "data_query",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

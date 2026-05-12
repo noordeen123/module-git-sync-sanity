@@ -1,0 +1,285 @@
+{
+  "id": "a7c42356-a7fd-4663-a909-63d39f176aa7",
+  "name": "listview1",
+  "type": "Listview",
+  "pageId": "a658d462-470f-459a-89f5-ec80107df33b",
+  "parent": "89c1f0e1-aeb4-4290-aa5f-a3209d470f10-Activate/ Deactivate Stations",
+  "properties": {
+    "data": {
+      "value": "{{(function (apiStations, configStations) {\n\n    const apiSet = new Set(apiStations?.map(station => station.toLowerCase()));\n    const configSet = new Set(configStations?.map(station => station.toLowerCase()));\n\n\n    const mergedSet = new Set([...apiSet, ...configSet]);\n\n\n    const reconciledList = Array.from(mergedSet).map(station => {\n\n        const apiMatch = apiStations?.find(s => s.toLowerCase() === station);\n        return apiMatch ? apiMatch : configStations?.find(s => s.toLowerCase() === station);\n    });\n\n    return reconciledList;\n})(queries.58f90d29-0163-4b64-b1b6-63620c1c7ec0.data.swiggy_supported_junctions, variables.STATION_LIST)}}"
+    },
+    "mode": {
+      "value": "list"
+    },
+    "columns": {
+      "value": "{{3}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "visible": {
+      "value": "{{true}}"
+    },
+    "rowHeight": {
+      "value": "50"
+    },
+    "undefined": {
+      "value": {
+        "data": {
+          "value": "{{(function(apiStations, configStations) {\n    // Normalize values to lowercase and create sets for uniqueness\n    const apiSet = new Set( apiStations?.map(station => station.toLowerCase()));\n    const configSet = new Set(configStations?.map(station => station.toLowerCase()));\n    \n    // Merge the two sets\n    const mergedSet = new Set([...apiSet, ...configSet]);\n\n    // Convert back to array with original case from the API data as a priority, and if not, from config\n    const reconciledList = Array.from(mergedSet).map(station => {\n        // Find the original case-sensitive station name from the API or config array\n        const apiMatch = apiStations?.find(s => s.toLowerCase() === station);\n        return apiMatch ? apiMatch : configStations?.find(s => s.toLowerCase() === station);\n    });\n\n    return reconciledList;\n})( queries.58f90d29-0163-4b64-b1b6-63620c1c7ec0.data.swiggy_supported_junctions, variables.STATION_LIST)}}"
+        },
+        "mode": {
+          "value": "list"
+        },
+        "columns": {
+          "value": "{{3}}"
+        },
+        "tooltip": {
+          "value": ""
+        },
+        "visible": {
+          "value": "{{true}}"
+        },
+        "rowHeight": {
+          "value": "50"
+        },
+        "undefined": {
+          "value": {
+            "data": {
+              "value": "{{(function(apiStations, configStations) {\n    // Normalize values to lowercase and create sets for uniqueness\n    const apiSet = new Set( apiStations?.map(station => station.toLowerCase()));\n    const configSet = new Set(configStations?.map(station => station.toLowerCase()));\n    \n    // Merge the two sets\n    const mergedSet = new Set([...apiSet, ...configSet]);\n\n    // Convert back to array with original case from the API data as a priority, and if not, from config\n    const reconciledList = Array.from(mergedSet).map(station => {\n        // Find the original case-sensitive station name from the API or config array\n        const apiMatch = apiStations?.find(s => s.toLowerCase() === station);\n        return apiMatch ? apiMatch : configStations?.find(s => s.toLowerCase() === station);\n    });\n\n    return reconciledList;\n})( queries.58f90d29-0163-4b64-b1b6-63620c1c7ec0.data.swiggy_supported_junctions, variables.STATION_LIST)}}"
+            },
+            "mode": {
+              "value": "list"
+            },
+            "columns": {
+              "value": "{{3}}"
+            },
+            "tooltip": {
+              "value": ""
+            },
+            "visible": {
+              "value": "{{true}}"
+            },
+            "rowHeight": {
+              "value": "50"
+            },
+            "showBorder": {
+              "value": "{{false}}"
+            },
+            "visibility": {
+              "value": "{{true}}"
+            },
+            "rowsPerPage": {
+              "value": "{{10}}"
+            },
+            "canvasHeight": {
+              "value": 640
+            },
+            "loadingState": {
+              "value": "{{false}}"
+            },
+            "disabledState": {
+              "value": "{{false}}"
+            },
+            "dynamicHeight": {
+              "value": "{{true}}"
+            },
+            "enablePagination": {
+              "value": "{{false}}"
+            },
+            "dataSourceSelector": {
+              "value": "rawJson"
+            }
+          }
+        },
+        "showBorder": {
+          "value": "{{false}}"
+        },
+        "visibility": {
+          "value": "{{true}}"
+        },
+        "rowsPerPage": {
+          "value": "{{10}}"
+        },
+        "canvasHeight": {
+          "value": 650
+        },
+        "loadingState": {
+          "value": "{{false}}"
+        },
+        "disabledState": {
+          "value": "{{false}}"
+        },
+        "dynamicHeight": {
+          "value": "{{true}}"
+        },
+        "enablePagination": {
+          "value": "{{false}}"
+        },
+        "dataSourceSelector": {
+          "value": "rawJson"
+        }
+      }
+    },
+    "showBorder": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "rowsPerPage": {
+      "value": "{{10}}"
+    },
+    "canvasHeight": {
+      "value": 40
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{true}}"
+    },
+    "enablePagination": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{true}}"
+    },
+    "dataSourceSelector": {
+      "value": "rawJson"
+    }
+  },
+  "general": {
+    "undefined": {
+      "value": {
+        "undefined": {
+          "value": {}
+        }
+      }
+    }
+  },
+  "styles": {
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "undefined": {
+      "value": {
+        "backgroundColor": {
+          "value": "var(--cc-surface1-surface)"
+        },
+        "borderColor": {
+          "value": "var(--cc-surface1-surface)"
+        },
+        "borderRadius": {
+          "value": "{{6}}"
+        },
+        "boxShadow": {
+          "value": "0px 0px 0px 0px #00000040"
+        },
+        "undefined": {
+          "value": {
+            "backgroundColor": {
+              "value": "var(--cc-surface1-surface)"
+            },
+            "borderColor": {
+              "value": "var(--cc-surface1-surface)"
+            },
+            "borderRadius": {
+              "value": "{{6}}"
+            },
+            "boxShadow": {
+              "value": "0px 0px 0px 0px #00000040"
+            }
+          }
+        }
+      }
+    }
+  },
+  "generalStyles": {
+    "undefined": {
+      "value": {
+        "boxShadow": {
+          "value": "0px 0px 0px 0px #00000040"
+        },
+        "undefined": {
+          "value": {
+            "boxShadow": {
+              "value": "0px 0px 0px 0px #00000040"
+            }
+          }
+        }
+      }
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    },
+    "undefined": {
+      "value": {
+        "showOnDesktop": {
+          "value": "{{true}}"
+        },
+        "showOnMobile": {
+          "value": "{{false}}"
+        },
+        "undefined": {
+          "value": {
+            "showOnDesktop": {
+              "value": "{{true}}"
+            },
+            "showOnMobile": {
+              "value": "{{false}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "validation": {
+    "undefined": {
+      "value": {
+        "undefined": {
+          "value": {}
+        }
+      }
+    }
+  },
+  "layouts": [
+    {
+      "id": "33c7b479-2c39-4cd5-bbf7-025eed45abaa",
+      "type": "desktop",
+      "top": 60,
+      "left": 0,
+      "width": 43,
+      "height": 130,
+      "componentId": "a7c42356-a7fd-4663-a909-63d39f176aa7",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c0cb54ea-0560-4c68-a883-bb4eb9d9dfaf",
+      "type": "mobile",
+      "top": 580,
+      "left": 20,
+      "width": 15,
+      "height": 450,
+      "componentId": "a7c42356-a7fd-4663-a909-63d39f176aa7",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "38aaafab-6947-490c-ac3a-5a6940dd6e77",
+  "name": "set_variables",
+  "options": {
+    "code": "actions.setVariable('activeStations', null);\nactions.setVariable('STATION_LIST', [\"AGC\",\"ADI\",\"ASH\",\"AII\",\"UMB\",\"ASN\",\"BE\",\"BPL\",\"BBS\",\"BSL\",\"BSP\",\"BAM\",\"CD\",\"CTC\",\"DURG\",\"ED\",\"GKP\",\"GNT\",\"GWL\",\"NZM\",\"UBL\",\"ET\",\"JBP\",\"JP\",\"KLBG\",\"KYN\",\"CNB\",\"KPD\",\"KZJ\",\"KOTA\",\"SBC\",\"LKO\",\"LDH\",\"MTJ\",\"MB\",\"NGP\",\"NK\",\"NLR\",\"NDLS\",\"NJP\",\"PGT\",\"PNVL\",\"PNBE\",\"PCOI\",\"PRYJ\",\"DDU\",\"PUNE\",\"R\",\"RJY\",\"RTM\",\"ROU\",\"SGO\",\"SC\",\"SUR\",\"ST\",\"TPJ\",\"UJN\",\"BRC\",\"VAPI\",\"BSB\",\"BSR\",\"BZA\",\"VGLJ\",\"VSKP\",\"WL\",\"SA\",\"KNW\",\"BPQ\",\"RU\",\"GDR\",\"AK\",\"MLDT\",\"STA\",\"G\",\"KGP\",\"VZM\",\"GAYA\",\"OGL\",\"LAR\",\"PNU\",\"JSG\",\"AF\",\"VM\",\"SWM\",\"JL\",\"GTL\",\"DLI\",\"BLS\",\"JTJ\",\"ANG\",\"RN\",\"BWN\",\"NBQ\",\"ALJN\",\"TATA\",\"KIR\",\"DHN\",\"DD\",\"KTE\",\"JU\",\"JUC\",\"RJT\",\"CBE\",\"GUNA\",\"NAD\",\"MAJN\",\"HIJ\",\"KMZ\",\"KRNT\",\"MAO\",\"GZB\",\"KUR\",\"CPR\",\"PTK\",\"UDN\",\"GD\",\"BL\",\"TPTY\",\"RKMP\",\"ANND\",\"ND\",\"TNA\",\"DGR\",\"PNC\",\"HWH\",\"NCB\",\"AWR\",\"GGN\",\"LJN\",\"MTC\",\"PTKC\",\"RE\",\"ROK\",\"SRE\",\"AWY\",\"TUP\",\"ERS\",\"YPR\",\"KCG\",\"MAS\",\"ATP\",\"CLT\",\"MDU\",\"TEN\",\"PNP\",\"ETW\",\"MS\",\"AJJ\",\"AY\",\"AYC\",\"MMR\",\"BINA\",\"KNE\",\"HX\",\"BTI\",\"KTYM\",\"TVC\",\"ASR\",\"BKN\",\"CAN\",\"MYS\",\"JSME\",\"BJU\",\"MFP\",\"GHY\",\"JRC\",\"HJP\",\"QLN\",\"TDL\",\"TIG\",\"JAJ\"]);",
+    "parameters": [],
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "c2e034c9-7209-4bf1-a015-b0ef6a4f41e8",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

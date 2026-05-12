@@ -1,0 +1,18 @@
+{
+  "id": "3ff112d1-9b4b-47f3-bfc3-3e19433777fe",
+  "name": "onSubmit",
+  "index": 0,
+  "event": {
+    "eventId": "onSubmit",
+    "message": "Hello world!",
+    "queryId": "ceff1efb-9262-43fa-99a9-0112f3966b28",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "globalValuesForm",
+    "queryName": "globalValuesFormScript1",
+    "parameters": {}
+  },
+  "sourceId": "c9dde9ea-6db8-414e-ac2f-97c9616c74e4",
+  "target": "component",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

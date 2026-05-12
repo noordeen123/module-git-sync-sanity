@@ -1,0 +1,13 @@
+{
+  "id": "1f87f663-04e4-4bb1-8bba-cd16d3cf4270",
+  "name": "createFormatDataAsArrayFunction",
+  "options": {
+    "code": "function formatDataAsArray(obj) {\n  if (Array.isArray(obj)) return obj;\n  if (!obj || typeof obj !== \"object\") return [];\n\n  const keys = Object.keys(obj);\n  if (keys.length === 0) return [];\n\n  const length = Array.isArray(obj[keys[0]]) ? obj[keys[0]].length : 1;\n  const result = [];\n\n  for (let i = 0; i < length; i++) {\n    const row = {};\n    for (const key of keys) {\n      row[key] = Array.isArray(obj[key]) ? obj[key][i] : obj[key];\n    }\n    result.push(row);\n  }\n\n  return result;\n}\n\n\nawait actions.setVariable(\"formatDataAsArray\", formatDataAsArray);",
+    "parameters": [],
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "c2e034c9-7209-4bf1-a015-b0ef6a4f41e8",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

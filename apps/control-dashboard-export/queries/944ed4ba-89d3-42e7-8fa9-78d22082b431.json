@@ -1,0 +1,12 @@
+{
+  "id": "944ed4ba-89d3-42e7-8fa9-78d22082b431",
+  "name": "stationWiseValueUpdateCancelButtonScript1",
+  "options": {
+    "code": "components.stationSelector.clear()\ncomponents.openingTimePicker.clear()\ncomponents.closingTimePicker.clear()\ncomponents.bookingCutOffTime.clear()\ncomponents.minHaltTimeSelector.clear()",
+    "parameters": []
+  },
+  "dataSourceId": "c2e034c9-7209-4bf1-a015-b0ef6a4f41e8",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

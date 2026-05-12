@@ -1,0 +1,13 @@
+{
+  "id": "b007e603-d861-49a6-a104-07e7cfe51ca4",
+  "name": "createFormatDataAsObjectFunction",
+  "options": {
+    "code": "function formatDataAsObject(rows) {\n  if (!Array.isArray(rows) || rows.length === 0) return {};\n\n  const result = {};\n\n  for (const row of rows) {\n    if (row && typeof row === \"object\") {\n      for (const key in row) {\n        if (!Object.prototype.hasOwnProperty.call(result, key)) {\n          result[key] = [];\n        }\n        result[key].push(row[key]);\n      }\n    }\n  }\n\n  return result;\n}\n\n\nawait actions.setVariable(\"formatDataAsObject\", formatDataAsObject);",
+    "parameters": [],
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "c2e034c9-7209-4bf1-a015-b0ef6a4f41e8",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "8e4d35bd-e21d-42d9-bfd9-344f83fd413a",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "{{queries.2958af68-cd43-44fc-8b2f-2884aa6aa4ce.data.message}}",
+    "actionId": "show-alert",
+    "alertType": "info"
+  },
+  "sourceId": "2958af68-cd43-44fc-8b2f-2884aa6aa4ce",
+  "target": "data_query",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9"
+}

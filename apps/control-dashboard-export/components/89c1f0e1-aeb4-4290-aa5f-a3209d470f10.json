@@ -1,0 +1,216 @@
+{
+  "id": "89c1f0e1-aeb4-4290-aa5f-a3209d470f10",
+  "name": "controllerMainView",
+  "type": "Tabs",
+  "pageId": "a658d462-470f-459a-89f5-ec80107df33b",
+  "parent": null,
+  "properties": {
+    "tabs": {
+      "value": "{{ [\n {\n \"id\": \"Activate/ Deactivate Stations\",\n \"title\": \"Activate/ Deactivate Stations\"\n },\n {\n \"id\": \"Change global values\",\n \"title\": \"Change global values\"\n },\n {\n \"id\": \"Change values for specific station\",\n \"title\": \"Change values for specific station\"\n },\n {\n \"id\": \"Change Cut Off Time\",\n \"title\": \"Change Cut Off Time\"\n }\n] }}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "hideTabs": {
+      "value": false
+    },
+    "tabItems": {
+      "value": [
+        {
+          "id": "Activate/ Deactivate Stations",
+          "icon": {
+            "value": "IconHome2"
+          },
+          "title": "Activate/ Deactivate Stations",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "iconVisibility": {
+            "value": "{{false}}"
+          },
+          "fieldBackgroundColor": {
+            "value": "var(--cc-surface1-surface)"
+          }
+        },
+        {
+          "id": "Change global values",
+          "icon": {
+            "value": "IconHome2"
+          },
+          "title": "Change global values",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "iconVisibility": {
+            "value": "{{false}}"
+          },
+          "fieldBackgroundColor": {
+            "value": "var(--cc-surface1-surface)"
+          }
+        },
+        {
+          "id": "Change values for specific station",
+          "icon": {
+            "value": "IconHome2"
+          },
+          "title": "Change values for specific station",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "iconVisibility": {
+            "value": "{{false}}"
+          },
+          "fieldBackgroundColor": {
+            "value": "var(--cc-surface1-surface)"
+          }
+        },
+        {
+          "id": "Change Cut Off Time",
+          "icon": {
+            "value": "IconHome2"
+          },
+          "title": "Change Cut Off Time",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "iconVisibility": {
+            "value": "{{false}}"
+          },
+          "fieldBackgroundColor": {
+            "value": "var(--cc-surface1-surface)"
+          }
+        }
+      ]
+    },
+    "defaultTab": {
+      "value": "{{components.89c1f0e1-aeb4-4290-aa5f-a3209d470f10.viewKeys[0]}}"
+    },
+    "visibility": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}",
+      "fxActive": false
+    },
+    "dynamicHeight": {
+      "value": "{{true}}"
+    },
+    "useDynamicOptions": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "renderOnlyActiveTab": {
+      "value": false
+    }
+  },
+  "general": {},
+  "styles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "commonBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerBackground": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "divider": {
+      "value": "var(--cc-default-border)"
+    },
+    "unselectedText": {
+      "value": "var(--cc-placeholder-text)"
+    },
+    "selectedText": {
+      "value": "var(--cc-primary-text)"
+    },
+    "hoverBackground": {
+      "value": "#1B1F24"
+    },
+    "unselectedIcon": {
+      "value": "var(--cc-default-icon)"
+    },
+    "selectedIcon": {
+      "value": "var(--cc-default-icon)"
+    },
+    "accent": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "tabWidth": {
+      "value": "auto"
+    },
+    "transition": {
+      "value": "none"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "border": {
+      "value": "var(--cc-weak-border)"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "c7fd27c7-37a0-4642-9ced-e6f6b4bd8e6c",
+      "type": "desktop",
+      "top": 110,
+      "left": 0,
+      "width": 43,
+      "height": 320,
+      "componentId": "89c1f0e1-aeb4-4290-aa5f-a3209d470f10",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5b1f303a-6646-408c-8e28-4bc1117da578",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "89c1f0e1-aeb4-4290-aa5f-a3209d470f10",
+      "dimensionUnit": "count"
+    }
+  ]
+}

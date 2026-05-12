@@ -1,0 +1,12 @@
+{
+  "id": "ceff1efb-9262-43fa-99a9-0112f3966b28",
+  "name": "globalValuesFormScript1",
+  "options": {
+    "code": "//push global values in respective keys\n\nqueries.constructRequestBody.run({\n  additionalScope:{\n    inputs: {\n        bookingCutoffTime: components.bookingCutoffTimeInput.value,\n    advanceBookingLimit: components.advanceBookingLimitInput.value,\n    minimumHaltTimeMinutes: components.minHaltTimeInput.value\n    }\n  }\n}).then(()=>{\n  queries.stationListingPush.run()\n})",
+    "parameters": []
+  },
+  "dataSourceId": "c2e034c9-7209-4bf1-a015-b0ef6a4f41e8",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

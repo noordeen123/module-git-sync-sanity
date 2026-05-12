@@ -1,0 +1,12 @@
+{
+  "id": "275feb71-7540-4f94-9ef2-541d2fbc0f73",
+  "name": "activateStationsSubmitButtonScript1",
+  "options": {
+    "code": "//push selected stations into the \"stations: key \nqueries.constructRequestBody.run({\n  additionalScope:{\n    inputs: {\n        stations: stationsSwitchGroup.selectedItems\n    }\n  }\n}).then(()=>{\n  queries.stationListingPush.run()\n})\n\n\n\n\n",
+    "parameters": []
+  },
+  "dataSourceId": "c2e034c9-7209-4bf1-a015-b0ef6a4f41e8",
+  "appVersionId": "b93439f1-7e96-4f9a-9d9a-cc83e5bc66f9",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
