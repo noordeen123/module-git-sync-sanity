@@ -1,0 +1,14 @@
+{
+  "id": "082bd74a-dc5f-4488-a7db-7ea50828fd82",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "key": "mk",
+    "value": "{{[{label: '40% new', value: 40}]}}",
+    "eventId": "onClick",
+    "actionId": "set-custom-variable"
+  },
+  "sourceId": "dad9ee2f-1bd3-45e6-9516-66e81554a370",
+  "target": "component",
+  "appVersionId": "1a84bbde-d9b9-4890-85ab-3137f5ed5f59"
+}

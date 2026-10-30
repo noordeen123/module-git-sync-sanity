@@ -1,0 +1,33 @@
+{
+  "id": "cc286ee9-1464-4093-a8f8-13153e26d54e",
+  "name": "RS Text marks",
+  "handle": "rs-text-marks",
+  "index": 999,
+  "disabled": false,
+  "hidden": false,
+  "icon": null,
+  "autoComputeLayout": true,
+  "appVersionId": "1a84bbde-d9b9-4890-85ab-3137f5ed5f59",
+  "pageGroupIndex": 2,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "pageFooter": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "appId": "",
+  "targetCorelationId": null
+}

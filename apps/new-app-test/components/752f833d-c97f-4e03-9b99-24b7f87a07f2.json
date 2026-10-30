@@ -1,0 +1,108 @@
+{
+  "id": "752f833d-c97f-4e03-9b99-24b7f87a07f2",
+  "name": "rs_lList",
+  "type": "Listview",
+  "pageId": "51c178e1-3f99-4188-8bd9-00838615ac8e",
+  "parent": null,
+  "properties": {
+    "dataSourceSelector": {
+      "value": "rawJson"
+    },
+    "data": {
+      "value": "{{[{p: 25}, {p: 50}, {p: 75}]}}"
+    },
+    "mode": {
+      "value": "list"
+    },
+    "columns": {
+      "value": "{{3}}"
+    },
+    "rowHeight": {
+      "value": "{{100}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "visible": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "showBorder": {
+      "value": "{{true}}"
+    },
+    "rowsPerPage": {
+      "value": "{{10}}"
+    },
+    "enablePagination": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{true}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "8ad2741f-a763-4473-804b-29fa5bbf272a",
+      "type": "desktop",
+      "top": 680,
+      "left": 1,
+      "width": 20,
+      "height": 330,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "752f833d-c97f-4e03-9b99-24b7f87a07f2",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "47064a72-7de0-405f-b46d-1610be69ae9c",
+      "type": "mobile",
+      "top": 680,
+      "left": 1,
+      "width": 16,
+      "height": 330,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "752f833d-c97f-4e03-9b99-24b7f87a07f2",
+      "dimensionUnit": "count"
+    }
+  ]
+}

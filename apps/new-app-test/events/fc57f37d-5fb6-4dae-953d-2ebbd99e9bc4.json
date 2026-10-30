@@ -1,0 +1,15 @@
+{
+  "id": "fc57f37d-5fb6-4dae-953d-2ebbd99e9bc4",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "ref": "new_column1::70ccfb88-7a12-4d56-a21d-e3a7a394fb25",
+    "eventId": "onClick",
+    "message": "{{components.5fde35cd-e218-4cd7-9990-41e5546d0b7e.selectedRow.name}}",
+    "actionId": "show-alert",
+    "alertType": "info"
+  },
+  "sourceId": "5fde35cd-e218-4cd7-9990-41e5546d0b7e",
+  "target": "table_column",
+  "appVersionId": "1a84bbde-d9b9-4890-85ab-3137f5ed5f59"
+}
