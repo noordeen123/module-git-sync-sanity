@@ -1,0 +1,47 @@
+{
+  "id": "ea22c593-33e8-4292-9062-69b7556f033d",
+  "name": "shopTitle",
+  "type": "Text",
+  "pageId": "00e602bc-3c81-4e01-9c85-b124242cf311",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Spring sale"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "f0a7bc4d-d794-4af4-bf77-cb6044dea209",
+      "type": "desktop",
+      "top": 40,
+      "left": 5,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "ea22c593-33e8-4292-9062-69b7556f033d",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "31f8c6e2-39d2-463c-a3ea-495ee37c06cf",
+      "type": "mobile",
+      "top": 40,
+      "left": 5,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "ea22c593-33e8-4292-9062-69b7556f033d",
+      "dimensionUnit": "count"
+    }
+  ]
+}
