@@ -1,0 +1,77 @@
+{
+  "id": "aec00443-fae3-42aa-9da9-637714bff15e",
+  "name": "mParent",
+  "type": "ModuleViewer",
+  "pageId": "f6a04ed3-2881-4a58-9a8b-98f36ad00987",
+  "parent": "cdac8971-90e3-45d6-9fab-b6ac91df57c2",
+  "properties": {
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "moduleAppId": {
+      "value": "a08c5aca-67e3-48ba-a8fa-5cbc213ee218"
+    },
+    "moduleVersionId": {
+      "value": "876cf0d6-8fa9-47df-ade9-2f97edb30e67",
+      "versionName": "v1"
+    },
+    "couponCode": {
+      "value": "SPRING10"
+    }
+  },
+  "general": null,
+  "styles": {
+    "backgroundColor": {
+      "value": "#fff"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "ea0b077a-e8dd-452a-b46e-f800de2a7fb1",
+      "type": "desktop",
+      "top": 680,
+      "left": 1,
+      "width": 20,
+      "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "aec00443-fae3-42aa-9da9-637714bff15e",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "718f46d3-2bc6-47a8-8b0b-bdc1ae00f8d4",
+      "type": "mobile",
+      "top": 680,
+      "left": 1,
+      "width": 20,
+      "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "aec00443-fae3-42aa-9da9-637714bff15e",
+      "dimensionUnit": "count"
+    }
+  ]
+}
