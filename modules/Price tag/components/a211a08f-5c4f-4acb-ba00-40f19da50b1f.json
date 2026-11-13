@@ -6,12 +6,18 @@
   "parent": "226846bd-b999-4b07-b21e-23b280b885b6",
   "properties": {
     "text": {
-      "value": "Price: 120 EUR"
+      "value": "Price: 99 EUR (was 120)"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {},
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": null,
   "validation": {},
   "layouts": [
