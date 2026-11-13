@@ -6,12 +6,18 @@
   "parent": null,
   "properties": {
     "text": {
-      "value": "Spring sale"
+      "value": "Summer sale - 20% off"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {},
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": null,
   "validation": {},
   "layouts": [

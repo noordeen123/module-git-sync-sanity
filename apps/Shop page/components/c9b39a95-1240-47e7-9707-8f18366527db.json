@@ -1,0 +1,47 @@
+{
+  "id": "c9b39a95-1240-47e7-9707-8f18366527db",
+  "name": "checkoutBtn",
+  "type": "Button",
+  "pageId": "00e602bc-3c81-4e01-9c85-b124242cf311",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Checkout"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "b1bcbb4a-c8ad-4b36-beec-47ce640ceb98",
+      "type": "desktop",
+      "top": 40,
+      "left": 28,
+      "width": 10,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "c9b39a95-1240-47e7-9707-8f18366527db",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "2fad7add-1008-4ca3-87f0-b534e75e0757",
+      "type": "mobile",
+      "top": 40,
+      "left": 28,
+      "width": 10,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "c9b39a95-1240-47e7-9707-8f18366527db",
+      "dimensionUnit": "count"
+    }
+  ]
+}
