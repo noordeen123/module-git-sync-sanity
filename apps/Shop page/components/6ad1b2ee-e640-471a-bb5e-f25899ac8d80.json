@@ -1,0 +1,47 @@
+{
+  "id": "6ad1b2ee-e640-471a-bb5e-f25899ac8d80",
+  "name": "shippingNote",
+  "type": "Text",
+  "pageId": "00e602bc-3c81-4e01-9c85-b124242cf311",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Free shipping over 50 EUR"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1aa47be4-1c7b-49a9-a983-c00955e1ee60",
+      "type": "desktop",
+      "top": 300,
+      "left": 5,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "6ad1b2ee-e640-471a-bb5e-f25899ac8d80",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "114e76ad-f864-4f14-9dea-0982ab53a9fe",
+      "type": "mobile",
+      "top": 300,
+      "left": 5,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "6ad1b2ee-e640-471a-bb5e-f25899ac8d80",
+      "dimensionUnit": "count"
+    }
+  ]
+}
