@@ -1,0 +1,47 @@
+{
+  "id": "39f86261-ca36-46e6-bbcc-273e828fc829",
+  "name": "codeText",
+  "type": "Text",
+  "pageId": "e42df9b0-588b-4563-bbe2-bcb328b451e7",
+  "parent": "612c3395-ba1f-49f3-b944-f3facc4564ab",
+  "properties": {
+    "text": {
+      "value": "Code: {{input.couponCode}}"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "f2368de0-62f0-4ea6-a599-c1a24fa4488b",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 25,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "39f86261-ca36-46e6-bbcc-273e828fc829",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "72beeb82-2694-4b72-9d89-048d42fc5c9b",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 25,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "39f86261-ca36-46e6-bbcc-273e828fc829",
+      "dimensionUnit": "count"
+    }
+  ]
+}

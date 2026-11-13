@@ -1,0 +1,47 @@
+{
+  "id": "b99f2185-66eb-46e0-ad5c-1070904622cb",
+  "name": "redeemBtn",
+  "type": "Button",
+  "pageId": "e42df9b0-588b-4563-bbe2-bcb328b451e7",
+  "parent": "612c3395-ba1f-49f3-b944-f3facc4564ab",
+  "properties": {
+    "text": {
+      "value": "Redeem now"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "07da5717-9c89-409a-878a-e4b21af15c10",
+      "type": "desktop",
+      "top": 80,
+      "left": 2,
+      "width": 10,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "b99f2185-66eb-46e0-ad5c-1070904622cb",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "47184b52-5884-49e2-b1fa-517aef77c3c7",
+      "type": "mobile",
+      "top": 80,
+      "left": 2,
+      "width": 10,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "b99f2185-66eb-46e0-ad5c-1070904622cb",
+      "dimensionUnit": "count"
+    }
+  ]
+}

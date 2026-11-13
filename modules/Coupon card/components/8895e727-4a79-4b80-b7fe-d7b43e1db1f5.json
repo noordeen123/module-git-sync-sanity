@@ -1,0 +1,47 @@
+{
+  "id": "8895e727-4a79-4b80-b7fe-d7b43e1db1f5",
+  "name": "expiryText",
+  "type": "Text",
+  "pageId": "e42df9b0-588b-4563-bbe2-bcb328b451e7",
+  "parent": "612c3395-ba1f-49f3-b944-f3facc4564ab",
+  "properties": {
+    "text": {
+      "value": "Expires Sunday"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1aa9486c-1fd6-4bb3-82a2-d40a50910c84",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 25,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "8895e727-4a79-4b80-b7fe-d7b43e1db1f5",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "2246dfe9-bedc-4f38-b770-05735c3153ee",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 25,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "8895e727-4a79-4b80-b7fe-d7b43e1db1f5",
+      "dimensionUnit": "count"
+    }
+  ]
+}
