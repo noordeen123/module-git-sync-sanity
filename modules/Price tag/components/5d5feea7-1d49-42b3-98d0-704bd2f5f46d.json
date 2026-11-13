@@ -1,0 +1,47 @@
+{
+  "id": "5d5feea7-1d49-42b3-98d0-704bd2f5f46d",
+  "name": "buyBtn",
+  "type": "Button",
+  "pageId": "0344e519-9016-444d-9868-f63a8c542aaa",
+  "parent": "226846bd-b999-4b07-b21e-23b280b885b6",
+  "properties": {
+    "text": {
+      "value": "Buy now"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "5d84547f-fe16-4390-8c32-04ffea6e61ce",
+      "type": "desktop",
+      "top": 80,
+      "left": 2,
+      "width": 10,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "5d5feea7-1d49-42b3-98d0-704bd2f5f46d",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "44a20059-a008-4f9f-9008-c2e4e89ec007",
+      "type": "mobile",
+      "top": 80,
+      "left": 2,
+      "width": 10,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "5d5feea7-1d49-42b3-98d0-704bd2f5f46d",
+      "dimensionUnit": "count"
+    }
+  ]
+}

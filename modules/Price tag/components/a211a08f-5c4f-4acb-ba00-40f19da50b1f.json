@@ -1,0 +1,47 @@
+{
+  "id": "a211a08f-5c4f-4acb-ba00-40f19da50b1f",
+  "name": "priceLabel",
+  "type": "Text",
+  "pageId": "0344e519-9016-444d-9868-f63a8c542aaa",
+  "parent": "226846bd-b999-4b07-b21e-23b280b885b6",
+  "properties": {
+    "text": {
+      "value": "Price: 120 EUR"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "660600f1-df96-4e4c-b0e3-c0fa90fadcde",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "a211a08f-5c4f-4acb-ba00-40f19da50b1f",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "8d19c22a-fe81-414c-9b5d-0062bb409de3",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 20,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "a211a08f-5c4f-4acb-ba00-40f19da50b1f",
+      "dimensionUnit": "count"
+    }
+  ]
+}
